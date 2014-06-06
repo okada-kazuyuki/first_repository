@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+#board {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#board td {
+  height: 20px;
+  background: #000;
+  border: 1px solid #aaa;
+  text-align: center;
+  
+}
+
+#board td.alive {
+  background: #24D839;
+}
+
+.parts {
+  position: relative;
+  width: 100%;
+}
+
+.gage,.distance {
+  position: absolute;
+  width: 350px;
+  height: 5px;
+  top: 20px;
+  right: 20px;
+  background: #f66;
+}
+
+.distance {
+  top: 0;
+  right: 0;
+  width: 100%;
+  background: #faa;
+}
+
+.now-pos {
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.pinch{
+  margin-left: -6px;
+  position: absolute;
+  width: 12px;
+  height: 19px;
+  top: -7px;
+  left: 0;
+  background: #DAD680;
+  cursor: pointer;
+}
+
+

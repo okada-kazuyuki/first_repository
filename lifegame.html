@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+<meta charset="utf-8">
+<title>lifegame</title>
+<link href="lifegame.css" rel="stylesheet">
+<script src="jquery.js"></script>
+<script src="lifegame.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="parts"><input type="text" name="scale" id="scale" placeholder="フィールドサイズを入力！"><input type="button" id="set" value="set"><input type="button" id="clear" value="clear"><br><input type="button" id="start" value="start"><input type="button" id="stop" value="stop!"><br><input type="button" id="undo" value="undo"><input type="button" id="reverse" value="reverse"><br><span class="state"></span>
+      <div class="gage">
+        <div class="now-pos"><span class="current">0</span>/<span class="count">0</span></div>
+        <div class="distance"></div>
+        <div class="pinch"></div>
+      </div>
+    </div>
+    <table id="board"></table>
+  </div>
+</body>
+</html>
+
